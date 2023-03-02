@@ -1,0 +1,43 @@
+body{
+    background-image: url("https://wallpaperaccess.com/full/3897779.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.key{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid rgba(0, 0, 0);
+    padding: 9px;
+    color: white;
+    background: rgba(0, 0, 0, 0.4);
+    width: 74px;
+    
+}
+.keys{
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 41px;
+    position: relative;
+    top: 240px;
+    transition: 0.7s;
+}
+span{
+    cursor: pointer;
+
+}
+kbd{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+    color: rgb(255, 183, 2);
+    font-size: 40px;
+    display: block;
+
+}
+.playing{
+    transform: scale(1.1);
+    border-color: #ffee00;
+    box-shadow: 0 0 1rem #ffc600;
+}
